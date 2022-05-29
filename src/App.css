@@ -1,0 +1,184 @@
+@font-face {
+  font-family: 'Tahu!';
+  src: local('Tahu!'), url('./assets/fonts/tahu.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
+.tahu {
+  font-family: 'Tahu!';
+}
+
+.pull-right {
+  text-align: right;
+}
+
+.App {
+  height: 100%;
+}
+
+.App .logo {
+  height: 32px;
+  color: white;
+  background: rgba(255, 255, 255, 0.2);
+  font-size: 24px;
+  text-align: center;
+  vertical-align: middle;
+  margin: 16px;
+}
+
+.form-action-button {
+  margin-right: 8px;
+  margin-bottom: 12px;
+}
+
+.stats-chart {
+  max-width: 240px;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.users-chart {
+  background: -webkit-linear-gradient(0deg, #3f5efb 0%, #fc466b 100%);
+  background: -moz-linear-gradient(0deg, #3f5efb 0%, #fc466b 100%);
+  background: -o-linear-gradient(0deg, #3f5efb 0%, #fc466b 100%);
+  background: -ms-linear-gradient(0deg, #3f5efb 0%, #fc466b 100%);
+  background: linear-gradient(0deg, #3f5efb 0%, #fc466b 100%);
+}
+
+.bookings-chart {
+  background: -webkit-linear-gradient(0deg, #11998e 0%, #38ef7d 100%);
+  background: -moz-linear-gradient(0deg, #11998e 0%, #38ef7d 100%);
+  background: -o-linear-gradient(0deg, #11998e 0%, #38ef7d 100%);
+  background: -ms-linear-gradient(0deg, #11998e 0%, #38ef7d 100%);
+  background: linear-gradient(0deg, #11998e 0%, #38ef7d 100%);
+}
+
+.pendings-chart {
+  background: -webkit-linear-gradient(0deg, #ee0979 0%, #ff6a00 100%);
+  background: -moz-linear-gradient(0deg, #ee0979 0%, #ff6a00 100%);
+  background: -o-linear-gradient(0deg, #ee0979 0%, #ff6a00 100%);
+  background: -ms-linear-gradient(0deg, #ee0979 0%, #ff6a00 100%);
+  background: linear-gradient(0deg, #ee0979 0%, #ff6a00 100%);
+}
+
+.earnings-chart {
+  background: -webkit-linear-gradient(0deg, #45b649 0%, #dce35b 100%);
+  background: -moz-linear-gradient(0deg, #45b649 0%, #dce35b 100%);
+  background: -o-linear-gradient(0deg, #45b649 0%, #dce35b 100%);
+  background: -ms-linear-gradient(0deg, #45b649 0%, #dce35b 100%);
+  background: linear-gradient(0deg, #45b649 0%, #dce35b 100%);
+}
+
+.chat-contact {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.chat-contact:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.chat-msg-list .ant-list-items .ant-list-item {
+  padding-top: 5px;
+  padding-bottom: 0;
+  justify-content: inherit;
+}
+
+.msg-body {
+  width: fit-content;
+  padding: 12px;
+}
+
+.msg-time {
+  margin-top: 8px;
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 11px;
+}
+
+.from-me {
+  width: 100%;
+  padding-right: 16px;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.from-me .msg-body {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  max-width: 180px;
+  background-color: #e0e0e0;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.from-other .msg-body {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  max-width: 180px;
+  background-color: #001529;
+  color: white;
+}
+
+.chat-msg-list .ant-list-items .ant-list-item.first-item {
+  padding-top: 20px;
+}
+
+.from-me.first-item .msg-body {
+  border-top-right-radius: 20px;
+}
+
+.from-me.last-item .msg-body {
+  border-bottom-right-radius: 20px;
+}
+
+.from-other.first-item .msg-body {
+  border-top-left-radius: 20px;
+}
+
+.from-other.last-item .msg-body {
+  border-bottom-left-radius: 20px;
+}
+
+.chat-input-outerwrapper {
+  background-color: #f7f7f7;
+  border-top: 1px solid rgba(0, 0, 0, 0.13);
+  display: flex;
+  align-items: center;
+}
+
+.chat-input-innerwrapper {
+  width: 100%;
+  margin-left: 15px;
+  margin-right: 15px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+.chat-input-innerwrapper input[type=text] {
+  border: none;
+  flex: 1;
+  margin-left: 10px;
+  padding-top: 6px;
+  padding-bottom: 7px;
+  font-size: 16px;
+}
+
+.chat-input-innerwrapper input[type=text]:focus {
+  outline: none;
+}
+
+.chat-send {
+  width: 48px;
+  height: 48px;
+  font-size: 24px;
+}
+
+.rich-editor .ant-form-item-control {
+  line-height: 21px;
+}
